@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 
 *{
@@ -46,3 +48,98 @@ nav{
     background-size: cover;
 }
 
+.name{
+    font-size: 5vw;
+    position: absolute;
+    color: white;
+    top: 30vh;
+    left: 10vw;
+    font-family: 'Pacifico', cursive;
+    width: 700px;
+    line-height: 2.5vw;
+}
+
+.name .qoute{
+    font-size: 1.8vw;
+    
+}
+
+
+/* ===================== About Section ======================== */
+
+.image img{
+    height: auto;
+    width: 700px;
+}
+
+/* .space{
+    width: 100px;
+    height: 20px;
+} */
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.about-text{
+    width: 48%;
+}
+
+.about-heading{
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.about-text .desc{
+    font-size: 1.5vw;
+    /* width: 85%; */
+    text-align: center;
+}
+
+
+
+/* ======================== Contact Section ====================== */
+
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form{
+    width: 30%;
+}
+
+.contact-heading{
+    text-align: center;
+    font-size: 2vw;
+}
+
+form{
+    font-size: 2rem;
+    width: 90%;
+}
+
+form input , form textarea{
+    width: 100%;
+    font-size: 30px;
+}
+
+form textarea{
+    height: 180px;
+}
+
+.feild{
+    margin: 15px auto;
+}
+
+.submit{
+    background: rgb(61, 161, 61);
+    color: white;
+    height: 50px;
+    border-radius: 10px;
+}
